@@ -9,39 +9,39 @@ Data Science has been instrumental in providing powerful insights that were prev
 This project is designed to test and enhance your knowledge by providing hands-on experience with real-world financial data science problems.
 
 ## Module 1: CSV Data Pipeline
-Read input CSV file
-Cast string dates to datetime objects
-Compute additional feature columns
-Filter rows: by value + timestamp offset (last N days)
-Calculate row statistics: maximum, minimum, and mean
-Calculate incremental statistics: Daily Percentage Change
-Calculate GroupBy (month) VWAP = sum(price*volume)/sum(volume)
-Write output CSV file
+- Read input CSV file
+- Cast string dates to datetime objects
+- Compute additional feature columns
+- Filter rows: by value + timestamp offset (last N days)
+- Calculate row statistics: maximum, minimum, and mean
+- Calculate incremental statistics: Daily Percentage Change
+- Calculate GroupBy (month) VWAP = sum(price*volume)/sum(volume)
+- Write output CSV file
 ## Module 2: Data Visualization
-Discrete Series Plot
-Line Charts
-Pie Charts
-Bar Charts
-Histograms
-Correlation Matrix
-Calculations
-Rolling Volatility
-Beta vs. Index
-Simple Moving Average
-Bollinger Bands
+- Discrete Series Plot
+- Line Charts
+- Pie Charts
+- Bar Charts
+- Histograms
+- Correlation Matrix
+- Calculations
+- Rolling Volatility
+- Beta vs. Index
+- Simple Moving Average
+- Bollinger Bands
 ## Module 3: Fundamental Analysis using Linear Regression
-Split / Score / Predict
-Correlation Coefficient
-Polynomial Features
+- Split / Score / Predict
+- Correlation Coefficient
+- Polynomial Features
 ## Module 4: Trade Call Prediction using Classification
-Classification Comparison
-Random Forest
+- Classification Comparison
+- Random Forest
 ## Module 5: Modern Portfolio Theory
-Annualized Volatility and Returns
-Covariance Matrix
-Monte Carlo Simulation
-Scikit-Optimize
+- Annualized Volatility and Returns
+- Covariance Matrix
+- Monte Carlo Simulation
+- Scikit-Optimize
 ## Module 6: Clustering for Diversification Analysis
-K-means Clustering
-Elbow Curve Method
+- K-means Clustering
+- Elbow Curve Method
 
