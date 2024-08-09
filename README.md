@@ -1,72 +1,47 @@
-# Stock-Market-Data-Analytics---Aspiration-AI-Internship
-# Aspiration AI Internship
-
-
+# Predcitive Analysis of Stock Market Data
 ## Welcome
-http://www.aspiration.ai/machine-learning/internship/
+Investment Bankers, Chartered Accountants, Hedge Fund/Portfolio Managers, Forex Traders, and Commodities Analysts have historically been among the most coveted professions. However, in today's era of data analysis, it is essential to keep up with the rapidly evolving demands to ensure one's skills remain relevant.
 
-Investment Bankers, CA's, Hedge Fund / Portfolio Managers, Forex traders, Commodities Analysts. 
+Data Science has become an indispensable field, asserting its importance in every sphere of corporate life. The integration of Machine Learning and Artificial Intelligence in the financial world has unlocked massive potential, making the idea of these domains being separate seem outdated.
 
-These have been historically considered to be among the most coveted professions of all time. Yet, if one fails to keep
-up with the demands of the day, one would find one's skills to be obsolete in this era of data analysis.
+Data Science has been instrumental in providing powerful insights that were previously unknown, significantly increasing efficiency across the industry. From scalp traders to long-term debt investors, the ability to make accurate predictions, conduct unbiased analyses, and utilize tools that process millions of rows of data in seconds has transformed the financial industry in ways previously unimaginable.
 
-Data Science has inarguably been the hottest domain of the decade, asserting its need in every single sphere of corporate life. It was not long agowhen we discovered the massive potential of incorporating ML/AI in the financial world. Now, the very idea of the two being disjointed sounds strange.
+This project is designed to test and enhance your knowledge by providing hands-on experience with real-world financial data science problems.
 
-Data Science has been incremental in providing powerful insights ( which people didn't even know existed ) and helped massively increase the efficiency, helping everyone from a scalp trader to a long term debt investor. Accurate predictions, unbiased analysis, powerful tools that run through millions of rows of data in the blink of an eye have transformed the industry in ways we could've never imagined.
-
-The following program is designed to both test your knowledge and to give you the feel and experience of a real world financial world - data science problem. 
-
-## Module 1
-
-CSV Data Pipeline
-- Read input CSV file
-- Cast string dates to datetime objects
-- Compute additional feature columns
-- Filter rows: by value + timestamp offset (last N days)
-- Calculate row statistics: maximum, minimum and mean
-- Calculate incremental statistics: Daily Percentage Change 
-- Calculate GroupBy(month) VWAP = sum(price*volume)/sum(volume)
-- Write output CSV file 
-
-## Module 2
-
-Data Visualization 
-  - Discrete Series Plot
-  - Line Charts
-  - Pie Charts
-  - Bar Charts
-  - Histograms
-  - Correlation Matrix
-
+## Module 1: CSV Data Pipeline
+Read input CSV file
+Cast string dates to datetime objects
+Compute additional feature columns
+Filter rows: by value + timestamp offset (last N days)
+Calculate row statistics: maximum, minimum, and mean
+Calculate incremental statistics: Daily Percentage Change
+Calculate GroupBy (month) VWAP = sum(price*volume)/sum(volume)
+Write output CSV file
+## Module 2: Data Visualization
+Discrete Series Plot
+Line Charts
+Pie Charts
+Bar Charts
+Histograms
+Correlation Matrix
 Calculations
-  - Rolling Volatility
-  - Beta vs Index
-  - Simple Moving Average
-  - Bollinger Bands
-  
-## Module 3
+Rolling Volatility
+Beta vs. Index
+Simple Moving Average
+Bollinger Bands
+## Module 3: Fundamental Analysis using Linear Regression
+Split / Score / Predict
+Correlation Coefficient
+Polynomial Features
+## Module 4: Trade Call Prediction using Classification
+Classification Comparison
+Random Forest
+## Module 5: Modern Portfolio Theory
+Annualized Volatility and Returns
+Covariance Matrix
+Monte Carlo Simulation
+Scikit-Optimize
+## Module 6: Clustering for Diversification Analysis
+K-means Clustering
+Elbow Curve Method
 
-Fundamental Analysis using Linear Regression
-- Split / Score / Predict 
-- Correlation Coefficient
-- Polynomial Features
-
-## Module 4
-
-Trade Call Prediction using Classification
-- Classification Comparison
-- Random Forest
-
-## Module 5
-
-Modern Portfolio Theory
-- Annualized Volatility and Returns
-- Covariance Matrix
-- Monty-Carlo Simulation
-- Scikit-Optimize
-
-## Module 6
-
-Clustering for Diversification Analysis 
-- K-means clustering
-- Elbow curve method
